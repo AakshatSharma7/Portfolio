@@ -20,6 +20,8 @@
         'figma:asset/8902dfabb2c3e2d645b398bc36fef14dac5b2f03.png': path.resolve(__dirname, './src/assets/8902dfabb2c3e2d645b398bc36fef14dac5b2f03.png'),
         'figma:asset/7fd5693fb4b858418ffd9c48a8f3f91fe3b3e3cc.png': path.resolve(__dirname, './src/assets/7fd5693fb4b858418ffd9c48a8f3f91fe3b3e3cc.png'),
         'profile-image': path.resolve(__dirname, './src/assets/Aakshat.jpeg'),
+        'accenture-cert': path.resolve(__dirname, './src/assets/Accenture.jpg'),
+        'deloitte-cert': path.resolve(__dirname, './src/assets/Deloitte Certificate_page-0001.jpg'),
         'embla-carousel-react@8.6.0': 'embla-carousel-react',
         'cmdk@1.1.1': 'cmdk',
         'class-variance-authority@0.7.1': 'class-variance-authority',

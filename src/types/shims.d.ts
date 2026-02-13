@@ -50,3 +50,13 @@ declare module 'profile-image' {
   const content: string;
   export default content;
 }
+
+declare module 'accenture-cert' {
+  const content: string;
+  export default content;
+}
+
+declare module 'deloitte-cert' {
+  const content: string;
+  export default content;
+}

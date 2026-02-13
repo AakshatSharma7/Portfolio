@@ -2,7 +2,8 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
-import accentureImg from '../assets/Accenture.jpg';
+import accentureImg from 'accenture-cert';
+import deloitteImg from 'deloitte-cert';
 
 interface Certificate {
   id: number;
@@ -36,19 +37,19 @@ export function Certifications() {
     },
     {
       id: 3,
-      title: 'Deep Learning & Neural Networks',
-      issuer: 'Andrew Ng - Coursera',
+      title: 'IDE-BOOTCAMP',
+      issuer: 'AICTE & Ministry of Education’s Innovation Cell (MIC)',
       date: 'September 2023',
       description: 'Advanced training in convolutional neural networks, recurrent neural networks, and deep learning optimization techniques using TensorFlow and PyTorch.',
-      image: '/path/to/deep-learning-certificate.png',
-      //credentialUrl: 'https://example.com/certificate-3',
+      image: deloitteImg,
+      credentialUrl: 'https://example.com/certificate-3',
     },
     {
       id: 4,
       title: 'Accenture Data Analyst Professional Certificate',
       issuer: 'Accenture',
       date: 'September 2024',
-      description: 'Expert-level training in transformer models, large language models, prompt engineering, and building intelligent AI-powered applications with modern NLP techniques.',
+      description: 'Professional certification in data analysis and visualization using tools like Power BI and Tableau.',
       image: accentureImg,
       //credentialUrl: 'https://example.com/certificate-4',
     },
