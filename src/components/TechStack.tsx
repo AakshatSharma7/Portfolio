@@ -15,10 +15,11 @@ export function TechStack() {
     {
       category: "AI/ML Frameworks",
       skills: [
-        { name: "TensorFlow", level: 90, icon: "🧠" },
+        { name: "TensorFlow-Keras", level: 90, icon: "🧠" },
         //{ name: "PyTorch", level: 85, icon: "🔥" },
         { name: "Scikit-learn", level: 95, icon: "🔬" },
-        { name: "HuggingFace", level: 88, icon: "🤗" }
+        { name: "HuggingFace", level: 88, icon: "🤗" },
+        { name: "LangChain", level: 85, icon: "🔗" }
       ]
     },
     {
@@ -36,7 +37,9 @@ export function TechStack() {
       skills: [
         //{ name: "Flask", level: 85, icon: "⚗️" },
         //{ name: "Docker", level: 80, icon: "🐳" },
-        { name: "Git", level: 90, icon: "🌱" }
+        { name: "Git", level: 90, icon: "🌱" },
+        { name: "AZURE-ML", level: 90, icon: "☁️" },
+        { name: "Power-BI", level: 95, icon: "📶" }
       ]
     }
   ];

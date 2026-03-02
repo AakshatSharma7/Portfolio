@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/
 import { Badge } from './ui/badge';
 import accentureImg from 'accenture-cert';
 import deloitteImg from 'deloitte-cert';
+import microsoftImg from '../assets/Microsoft Certificate.jpg';
 
 interface Certificate {
   id: number;
@@ -28,21 +29,21 @@ export function Certifications() {
     },
     {
       id: 2,
-      title: 'MSSQL Certification',
+      title: 'SQL Certification',
       issuer: 'Microsoft',
-      date: 'February 2025',
-      description: 'Mastered supervised and unsupervised learning algorithms, model evaluation, hyperparameter tuning, and best practices for building production-ready ML models.',
-      image: '/path/to/ml-certificate.png',
+      date: 'November 2025',
+      description: 'Certification in SQL querying, database management, and data analysis using Microsoft SQL Server and Azure SQL Database.',
+      image: microsoftImg,
       //credentialUrl: 'https://example.com/certificate-2',
     },
     {
       id: 3,
-      title: 'IDE-BOOTCAMP',
-      issuer: 'AICTE & Ministry of Education’s Innovation Cell (MIC)',
-      date: 'September 2023',
-      description: 'Advanced training in convolutional neural networks, recurrent neural networks, and deep learning optimization techniques using TensorFlow and PyTorch.',
+      title: 'Deloitte Data Analyst Professional Certificate',
+      issuer: 'Deloitte',
+      date: 'February 2026',
+      description: 'Professional certification in data analysis, visualization, and machine learning implementation using tools like Python, SQL, Power BI, and Tableau.',
       image: deloitteImg,
-      credentialUrl: 'https://example.com/certificate-3',
+      //credentialUrl: 'https://example.com/certificate-3',
     },
     {
       id: 4,
