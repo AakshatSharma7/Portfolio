@@ -67,8 +67,8 @@ export function HandsOnExperience() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: index * 0.3 }}
               viewport={{ once: true }}
-              className={`relative flex flex-col md:flex-row items-center mb-16 ${
-                index % 2 === 0 ? 'md:justify-start' : 'md:justify-end'
+              className={`relative flex items-center mb-16 ${
+                index % 2 === 0 ? 'justify-start' : 'justify-end'
               }`}
             >
               {/* Timeline node */}
@@ -83,7 +83,7 @@ export function HandsOnExperience() {
               {/* Content card */}
               <motion.div
                 whileHover={{ scale: 1.05 }}
-                className={`w-full md:w-5/12 ${index % 2 === 0 ? 'md:mr-auto' : 'md:ml-auto'}`}
+                className={`w-5/12 ${index % 2 === 0 ? 'mr-auto' : 'ml-auto'}`}
               >
                 <div className="bg-gray-900/80 backdrop-blur-sm border border-gray-700/50 rounded-lg p-6 hover:border-orange-400/50 transition-all duration-300">
                   <div className="flex items-center mb-4">
