@@ -4,7 +4,8 @@
   import path from 'path';
 
   export default defineConfig({
-    base: '/Portfolio/',
+    // use relative paths so the site works regardless of the URL prefix
+    base: './',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
