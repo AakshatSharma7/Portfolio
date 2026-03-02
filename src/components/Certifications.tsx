@@ -94,7 +94,7 @@ export function Certifications() {
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <div className="relative w-full h-64 bg-slate-800 rounded-lg overflow-hidden">
+                  <div className="relative w-full h-48 md:h-64 bg-slate-800 rounded-lg overflow-hidden">
                     <img
                       src={cert.image}
                       alt={cert.title}
