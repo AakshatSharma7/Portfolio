@@ -15,7 +15,7 @@ export function Hero() {
           transition={{ duration: 0.5 }}
           className="mb-6 md:mb-8"
         >
-          <h1 className={`${isMobile ? 'text-2xl' : 'text-4xl md:text-6xl'} font-bold mb-3 md:mb-4`}>
+          <h1 className={`${isMobile ? 'text-6xl' : 'text-9xl lg:text-8xl'} font-bold mb-3 md:mb-4`}>
             {"AKSHAT SHARMA".split("").map((letter, index) => (
               <motion.span
                 key={index}
