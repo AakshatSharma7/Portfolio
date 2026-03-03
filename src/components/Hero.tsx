@@ -12,7 +12,7 @@ export function Hero() {
           transition={{ duration: 0.5 }}
           className="mb-8"
         >
-          <h1 className="text-6xl md:text-8xl font-bold mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">
             {"AKSHAT SHARMA".split("").map((letter, index) => (
               <motion.span
                 key={index}
@@ -25,7 +25,7 @@ export function Hero() {
                 }}
                 className="inline-block bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400 bg-clip-text text-transparent"
                 style={{ 
-                  perspective: "800px",
+                  perspective: "1000px",
                   transformStyle: "preserve-3d"
                 }}
                 whileHover={{
