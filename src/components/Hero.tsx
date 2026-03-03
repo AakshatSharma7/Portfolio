@@ -25,7 +25,7 @@ export function Hero() {
                 }}
                 className="inline-block bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400 bg-clip-text text-transparent"
                 style={{ 
-                  perspective: "1000px",
+                  perspective: "800px",
                   transformStyle: "preserve-3d"
                 }}
                 whileHover={{
