@@ -15,7 +15,7 @@ export function Hero() {
           transition={{ duration: 0.5 }}
           className="mb-6 md:mb-8"
         >
-          <h1 className={`${isMobile ? 'text-7xl' : 'text-10xl lg:text-9xl'} font-bold mb-3 md:mb-4`}>
+          <h1 className={`${isMobile ? 'text-8xl' : 'text-10xl lg:text-9xl'} font-bold mb-3 md:mb-4`} style={!isMobile ? { fontSize: '11rem' } : {}}>
             {"AKSHAT SHARMA".split("").map((letter, index) => (
               <motion.span
                 key={index}
@@ -45,7 +45,7 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            className={`${isMobile ? 'text-lg' : 'text-2xl md:text-4xl'} font-bold text-white mb-4 md:mb-6`}
+            className={`${isMobile ? 'text-base' : 'text-xl md:text-3xl'} font-bold text-white mb-4 md:mb-6`}
           >
             Welcome to My Portfolio
           </motion.div>
