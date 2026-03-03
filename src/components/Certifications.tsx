@@ -57,14 +57,14 @@ export function Certifications() {
   ];
 
   return (
-    <section id="certifications" className="py-20 px-6">
-      <div className="max-w-6xl mx-auto">
+    <section id="cert" className="py-16 md:py-20 px-6">
+      <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-12 md:mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
             Certifications
