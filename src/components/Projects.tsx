@@ -3,8 +3,6 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Github } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { useResponsive } from '../hooks/useResponsive';
-import dataVizIcon from 'figma:asset/7fd5693fb4b858418ffd9c48a8f3f91fe3b3e3cc.png';
-import dataVizIcon2 from '../assets/covid-19.png';
 
 interface Project {
   title: string;
@@ -92,7 +90,9 @@ export function Projects() {
     },
   ];
 
-  const categories = Array.from(new Set(projects.map(p => p.category).filter(Boolean)));
+  const categories = Array.from(
+    new Set(projects.flatMap(p => (p.category ? [p.category] : [])))
+  );
 
   const filteredProjects = useMemo(() => {
     return projects.filter(project => {
