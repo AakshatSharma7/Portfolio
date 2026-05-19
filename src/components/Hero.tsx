@@ -15,8 +15,8 @@ export function Hero() {
           transition={{ duration: 0.5 }}
           className="mb-6 md:mb-8"
         >
-          <h1 className={`${isMobile ? 'text-8xl' : 'text-10xl lg:text-9xl'} font-bold mb-3 md:mb-4`} style={!isMobile ? { fontSize: '11rem' } : {}}>
-            {"AKSHAT SHARMA".split("").map((letter, index) => (
+          <h1 className={`${isMobile ? 'text-6xl' : 'text-9xl lg:text-7xl'} font-bold mb-3 md:mb-4`} style={!isMobile ? { fontSize: '9rem' } : {}}>
+            {"AKSHAT SHARMA".split(" ").map((letter, index) => (
               <motion.span
                 key={index}
                 initial={{ opacity: 0, y: 40, rotateX: -90 }}
