@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { useResponsive } from '../hooks/useResponsive';
-import profileImage from '../assets/Aakshat.jpeg';
+import profileImage from '../../assets/A img.png';
 
 export function About() {
   const { isMobile } = useResponsive();
