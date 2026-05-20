@@ -24,7 +24,7 @@ export function Certifications() {
       id: 1,
       title: 'Advanced Certification in Data Science & AI',
       issuer: 'Intellipaat & IIT-Roorkee',
-      date: 'May 2026',
+      date: 'May-2026',
       description: 'Comprehensive training in Python programming, data manipulation with Pandas, and visualization using Matplotlib and Seaborn for data science applications.',
       image: aImg,
       //credentialUrl: 'https://example.com/certificate-1',
@@ -33,7 +33,7 @@ export function Certifications() {
       id: 2,
       title: 'SQL Certification',
       issuer: 'Microsoft',
-      date: 'November 2025',
+      date: 'November-2025',
       description: 'Certification in SQL querying, database management, and data analysis using Microsoft SQL Server and Azure SQL Database.',
       image: microsoftImg,
       //credentialUrl: 'https://example.com/certificate-2',
@@ -42,7 +42,7 @@ export function Certifications() {
       id: 3,
       title: 'Deloitte Data Analyst Professional Certificate',
       issuer: 'Deloitte',
-      date: 'February 2026',
+      date: 'February-2026',
       description: 'Professional certification in data analysis, visualization, and machine learning implementation using tools like Python, SQL, Power BI, and Tableau.',
       image: deloitteImg,
       //credentialUrl: 'https://example.com/certificate-3',
@@ -51,7 +51,7 @@ export function Certifications() {
       id: 4,
       title: 'Accenture Data Analyst Professional Certificate',
       issuer: 'Accenture',
-      date: 'September 2024',
+      date: 'September-2024',
       description: 'Professional certification in data analysis and visualization using tools like Power BI and Tableau.',
       image: accentureImg,
       //credentialUrl: 'https://example.com/certificate-4',
@@ -114,7 +114,7 @@ export function Certifications() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700 transition-colors text-sm font-medium"
                     >
-                      
+                      View Credential
                     </a>
                   )}
                 </CardContent>
