@@ -6,7 +6,7 @@ import accentureImg from 'accenture-cert';
 import deloitteImg from 'deloitte-cert';
 import microsoftImg from 'microsoft-cert';
 import dataScienceImg from 'data-science-cert';
-import aImg from '../assets/A img.png';
+import aImg from '../../assets/A img.png';
 
 interface Certificate {
   id: number;
