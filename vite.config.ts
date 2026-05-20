@@ -24,6 +24,8 @@
         'profile-image': path.resolve(__dirname, './src/assets/Aakshat.jpeg'),
         'accenture-cert': path.resolve(__dirname, './src/assets/Accenture.jpg'),
         'deloitte-cert': path.resolve(__dirname, './src/assets/Deloitte Certificate_page-0001.jpg'),
+        'microsoft-cert': path.resolve(__dirname, './src/assets/Microsoft Certificate.jpg'),
+        'data-science-cert': path.resolve(__dirname, './src/assets/Accenture.jpg'),
         'embla-carousel-react@8.6.0': 'embla-carousel-react',
         'cmdk@1.1.1': 'cmdk',
         'class-variance-authority@0.7.1': 'class-variance-authority',

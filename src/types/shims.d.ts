@@ -46,17 +46,23 @@ declare module '*.png';
 declare module '*.jpg';
 declare module '*.jpeg';
 declare module '*.svg';
-declare module 'profile-image' {
-  const content: string;
-  export default content;
-}
-
 declare module 'accenture-cert' {
   const content: string;
   export default content;
 }
-
 declare module 'deloitte-cert' {
+  const content: string;
+  export default content;
+}
+declare module 'microsoft-cert' {
+  const content: string;
+  export default content;
+}
+declare module 'data-science-cert' {
+  const content: string;
+  export default content;
+}
+declare module 'profile-image' {
   const content: string;
   export default content;
 }

@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
-import accentureImg from '../assets/Accenture.jpg';
-import deloitteImg from '../assets/Deloitte Certificate_page-0001.jpg';
-import microsoftImg from '../assets/Microsoft Certificate.jpg';
-import dataScienceImg from '../assets/Accenture.jpg';
+import accentureImg from 'accenture-cert';
+import deloitteImg from 'deloitte-cert';
+import microsoftImg from 'microsoft-cert';
+import dataScienceImg from 'data-science-cert';
 
 interface Certificate {
   id: number;
