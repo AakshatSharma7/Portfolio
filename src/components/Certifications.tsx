@@ -23,7 +23,7 @@ export function Certifications() {
       id: 1,
       title: 'Advanced Certification in Data Science & AI',
       issuer: 'Intellipaat & IIT-Roorkee',
-      date: 'April 2026',
+      date: 'May 2026',
       description: 'Comprehensive training in Python programming, data manipulation with Pandas, and visualization using Matplotlib and Seaborn for data science applications.',
       image: dataScienceImg,
       //credentialUrl: 'https://example.com/certificate-1',
