@@ -5,8 +5,7 @@ import { Badge } from './ui/badge';
 import accentureImg from 'accenture-cert';
 import deloitteImg from 'deloitte-cert';
 import microsoftImg from 'microsoft-cert';
-import dataScienceImg from 'data-science-cert';
-import aImg from '../../assets/A img.png';
+import dataScienceImg from '../../assets/Data science certificate.jpg';
 
 interface Certificate {
   id: number;
@@ -26,7 +25,7 @@ export function Certifications() {
       issuer: 'Intellipaat & IIT-Roorkee',
       date: 'May-2026',
       description: 'Comprehensive training in Python programming, data manipulation with Pandas, and visualization using Matplotlib and Seaborn for data science applications.',
-      image: aImg,
+      image: dataScienceImg,
       //credentialUrl: 'https://example.com/certificate-1',
     },
     {
