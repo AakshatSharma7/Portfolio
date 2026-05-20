@@ -6,6 +6,7 @@ import accentureImg from 'accenture-cert';
 import deloitteImg from 'deloitte-cert';
 import microsoftImg from 'microsoft-cert';
 import dataScienceImg from 'data-science-cert';
+import aImg from '../assets/A img.png';
 
 interface Certificate {
   id: number;
@@ -25,7 +26,7 @@ export function Certifications() {
       issuer: 'Intellipaat & IIT-Roorkee',
       date: 'May 2026',
       description: 'Comprehensive training in Python programming, data manipulation with Pandas, and visualization using Matplotlib and Seaborn for data science applications.',
-      image: dataScienceImg,
+      image: aImg,
       //credentialUrl: 'https://example.com/certificate-1',
     },
     {

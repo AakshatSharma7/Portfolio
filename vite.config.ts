@@ -4,8 +4,8 @@
   import path from 'path';
 
   export default defineConfig({
-    // use relative paths so the site works regardless of the URL prefix
-    base: './',
+    // use GitHub Pages subdirectory path
+    base: '/Portfolio/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
